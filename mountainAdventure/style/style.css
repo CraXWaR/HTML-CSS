@@ -1,0 +1,85 @@
+body {
+    background-color: #eae8e8;
+}
+
+nav {
+    width: 100%;
+    margin-top: 2rem;
+    color: black;
+    margin-left: 10em;
+    margin-right: 19em;
+}
+
+a {
+    text-align: center;
+    margin-left: 10px;
+    
+}
+
+a:link {
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:visited {
+    color: #1e1e1e;
+}
+
+.btnContact {
+    margin-left: 1170px;
+    font-weight: bold;
+    border: solid black;
+    border-radius: 5px;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.container {
+    margin-top: 40px;
+    display: flex;
+    width: 100%;
+}
+
+.text {
+    text-align: left;
+    margin-top: -6em;
+    margin-right: 30px;
+    margin-left: 10em;
+    float: left;
+
+}
+
+.text h1 {
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 6em;
+}
+
+.text p {
+    font-size: 1.5em;
+}
+
+.img {
+    margin-right: 10em;
+    float: right;
+    height: 1000rem;
+}
+
+.btnReserve {
+    color: #ebe8e8;
+    background-color: #1e1e1e;
+    font-weight: bold;
+    border: solid #1e1e1e;
+    border-radius: 5px;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
+
+footer {
+    text-align: center;
+}
+
