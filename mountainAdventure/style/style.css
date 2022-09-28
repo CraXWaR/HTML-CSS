@@ -1,12 +1,16 @@
-body {
+html {
     background-color: #eae8e8;
 }
 
+body {
+    width: max-content;
+}
+
 nav {
-    width: 100%;
-    margin-top: 2rem;
-    color: black;
-    margin-left: 10em;
+    width: 70%;
+    margin-top: 5rem;
+    color: #505055;
+    margin-left: 5em;
     margin-right: 19em;
 }
 
@@ -17,17 +21,28 @@ a {
 }
 
 a:link {
+    margin-left: 6rem;
     text-decoration: none;
-    font-weight: bold;
 }
 
 a:visited {
+    color: #505055;
+}
+
+a:hover {
+    font-weight: bold;
     color: #1e1e1e;
 }
 
 .btnContact {
-    margin-left: 1170px;
+    
+    display: inline-block;
     font-weight: bold;
+    font-family: black;
+    margin-left: 38em;
+}
+
+.btnContact a {
     border: solid black;
     border-radius: 5px;
     padding-top: 0.5rem;
@@ -37,7 +52,7 @@ a:visited {
 }
 
 .container {
-    margin-top: 40px;
+    margin-top: 100px;
     display: flex;
     width: 100%;
 }
@@ -45,9 +60,10 @@ a:visited {
 .text {
     text-align: left;
     margin-top: -6em;
-    margin-right: 30px;
+    margin-right: 70px;
     margin-left: 10em;
     float: left;
+    width: 24%;
 
 }
 
@@ -59,27 +75,66 @@ a:visited {
 
 .text p {
     font-size: 1.5em;
+    margin-top: -2em;
 }
 
 .img {
     margin-right: 10em;
     float: right;
-    height: 1000rem;
 }
 
 .btnReserve {
     color: #ebe8e8;
     background-color: #1e1e1e;
     font-weight: bold;
+    font-family: black;
+    font-size: large;
     border: solid #1e1e1e;
     border-radius: 5px;
-    padding-top: 0.5rem;
-    padding-bottom: 0.5rem;
+    padding-top: 0.8rem;
+    padding-bottom: 0.8rem;
     padding-left: 3rem;
     padding-right: 3rem;
+    font-weight: bold;
 }
 
-footer {
+.footer {
+    background-color: #1e1e1e;
+    display: block;
+    color: white;
     text-align: center;
+    margin-top: 5em;
+    margin-right: 5%;
+    margin-left: -15%;
 }
 
+.footer h1 {
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 4em;
+}
+
+.footer p {
+    font-size: 1em;
+    margin-top: -2em;
+}
+
+.btnTravel {
+    color: #ebe8e8;
+    background-color: #1e1e1e;
+    font-weight: bold;
+    border: solid #ebe8e8;
+    border-radius: 5px;
+    padding-top: 0.8rem;
+    padding-bottom: 0.8rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    font-weight: bold;
+    margin-bottom: 3em;
+    margin-top: 20px;
+}
+
+.footer div {
+    display: inline-block;
+    width: 20%;
+}
