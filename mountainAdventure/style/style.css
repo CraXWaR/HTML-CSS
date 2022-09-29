@@ -191,3 +191,30 @@ a:hover {
     margin-bottom: 1em;
     height: 0.1mm;
 }
+
+.planeImg {
+    margin-left: 45%;
+    margin-top: 10em; 
+}
+
+.planeText {
+    margin-left: 30%;
+}
+
+.planeText h1 {
+    font-family: 'Cardo', serif;
+    font-size: 5em;
+    text-align: center;
+    width: 50%;
+}
+.never {
+    display: inline;
+    font-style: italic;
+    text-decoration: underline;
+}
+
+.planeText p {
+    margin-left: 1%;
+    font-size: 1.5em;
+    font-family: 'Lato', sans-serif;
+}
