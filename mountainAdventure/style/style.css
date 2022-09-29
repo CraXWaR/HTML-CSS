@@ -193,7 +193,7 @@ a:hover {
 }
 
 .planeImg {
-    margin-left: 45%;
+    margin-left: 46%;
     margin-top: 10em; 
 }
 
@@ -217,4 +217,47 @@ a:hover {
     margin-left: 1%;
     font-size: 1.5em;
     font-family: 'Lato', sans-serif;
+}
+
+.destination {
+    margin-top: 10em;
+    display: flex;
+    margin-left: 10em;
+}
+
+.ridgeImg {
+    margin-right: 40px;
+}
+
+.tapeImg {
+    margin-left: -40rem;
+    margin-top: 15rem;
+}
+
+.mountainImg {
+    margin-left: 36rem;
+}
+
+.destination h1 {
+    width: 15%;
+    margin-top: 23rem;
+    margin-left: -26rem;
+    margin-right: 2em;
+    text-decoration: underline;
+    font-family: 'Cardo', serif;
+}
+
+.pOne {
+    width: 20%;
+    margin-top: 23rem;
+    font-family: 'Lato', sans-serif;
+    font-size: 15px;
+}
+
+.pTwo {
+    width: 20%;
+    margin-top: 31rem;
+    margin-left: -21.5rem;
+    font-family: 'Lato', sans-serif;
+    font-size: 15px;
 }
