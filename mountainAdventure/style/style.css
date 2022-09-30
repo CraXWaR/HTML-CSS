@@ -261,3 +261,87 @@ a:hover {
     font-family: 'Lato', sans-serif;
     font-size: 15px;
 }
+
+.blackDiv {
+    background-color: #1e1e1e;
+    display: flex;
+    color: #eae8e8;
+}
+
+.textBlack {
+    width: 40%;
+    margin-left: 10em;
+    margin-right: 7em;
+}
+
+.textBlack h1 {
+    font-family: 'Cardo', serif;
+    font-size: 5em
+}
+
+.textBlack h2 {
+    font-family: 'Lato', sans-serif;
+}
+
+.firstP {
+    width: 70%;
+    margin-bottom: 3em;
+}
+
+.textBlack p {
+    width: 70%;
+}
+
+.choosePic {
+    margin-top: 5em;
+    margin-bottom: 5em;
+}
+
+.sectionMore {
+    display: grid;
+    position: relative;
+    margin-left: 10em;
+    margin-top: 2em;
+}
+
+.sectionMore h1 {
+    font-family: 'Cardo', serif;
+    width: 60%;
+    height: 10%;
+    font-size: 7em;
+}
+
+.sectionP {
+    font-family: 'Lato', sans-serif;
+}
+
+.sectionBorder {
+    width: 50%;
+    border-bottom: solid black;
+    padding-left: 2em;
+    padding-bottom: 1em;
+    margin-bottom: -4em;
+}
+
+.firstP {
+    width: 50%;
+    border-top: solid black;
+    padding-left: 2em;
+    margin-bottom: 0.2em;
+}
+
+.plusSymbol {
+    width: 50px;
+    height: 50px;
+    margin-bottom: -1em;
+    margin-left: 10em;
+    padding-top: -10em;
+}
+
+.sectionImg {
+    position: relative;
+    margin-top: -35em;
+    margin-left: 65em;
+    width: 30em;
+    height: 38em;
+}
