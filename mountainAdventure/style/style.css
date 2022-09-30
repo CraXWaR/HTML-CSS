@@ -345,3 +345,70 @@ a:hover {
     width: 30em;
     height: 38em;
 }
+
+.customerSection h1 {
+    font-family: 'Cardo', serif;
+    font-size: 4em;
+    width: 30%;
+    text-align: center;
+    margin-left: 10.5em;
+    margin-top: 4.5em;
+    margin-bottom: -4em;
+}
+.desing {
+    position: absolute;
+    margin-top: 5em;
+    margin-left: 15em;
+    
+}
+
+.textDesingOne {
+    position: inherit;
+    margin-top: -17em;
+    margin-left: 14em;
+}
+
+.textDesingOne h2 {
+    font-family: 'Lato', sans-serif;
+    margin-bottom: 20px;
+}
+
+.textDesingOne p {
+    width: 50%;
+    text-align: center;
+    margin-left: -5.5em;
+}
+
+.textDesingTwo {
+    position: inherit;
+    margin-top: -17em;
+    margin-left: 39.5em;
+}
+
+.textDesingTwo h2{
+    font-family: 'Lato', sans-serif;
+    margin-bottom: 20px;
+}
+
+.textDesingTwo p{
+    width: 50%;
+    text-align: center;
+    margin-left: -5.5em;
+}
+
+.textDesingThree {
+    position: inherit;
+    margin-top: -17em;
+    margin-left: 65em;
+}
+
+.textDesingThree h2{
+    font-family: 'Lato', sans-serif;
+    margin-bottom: 20px;
+}
+
+.textDesingThree p{
+    width: 95%;
+    text-align: center;
+    margin-left: -6em;
+}
