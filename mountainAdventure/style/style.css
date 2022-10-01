@@ -323,7 +323,7 @@ a:hover {
     margin-bottom: -4em;
 }
 
-.firstP {
+.firstPara {
     width: 50%;
     border-top: solid black;
     padding-left: 2em;
@@ -411,4 +411,82 @@ a:hover {
     width: 95%;
     text-align: center;
     margin-left: -6em;
+}
+
+.updateSection {
+    margin-top: 65em;
+    margin-left: 21em;
+}
+
+.updateSection h1 {
+    font-size: 5em;
+    font-family: 'Cardo', serif;;
+    position: relative;
+}
+
+.inputs {
+    float: left;
+    display: flex;
+    flex-direction: column;
+    margin-top: em;
+}
+
+.fName {
+    border: solid #1e1e1e;
+    border-radius: 5px;
+    margin-bottom: 2em;
+    width: 150%;
+    padding-left: 1em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+.lName {
+    border: solid #1e1e1e;
+    border-radius: 5px;
+    margin-bottom: 2em;
+    width: 150%;
+    padding-left: 1em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+.email {
+    border: solid #1e1e1e;
+    border-radius: 5px;
+    margin-bottom: 2em;
+    width: 150%;
+    padding-left: 1em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+.inputs textarea {
+    border: solid #1e1e1e;
+    border-radius: 5px;
+    width: 150%;
+    margin-bottom: 2em;
+    padding-left: 1em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+.submitBtn {
+    position: relative;
+    border: solid #1e1e1e;
+    background-color: #1e1e1e;
+    color: #eae8e8;
+    border-radius: 5px;
+    width: 160%;
+    padding-left: 1em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    font-family: 'Lato', sans-serif;
+    font-size: 1em;
+}
+
+.updateImg {
+    margin-left: 40em;
+    margin-top: -8em;
+    
 }
