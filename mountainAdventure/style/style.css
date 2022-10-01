@@ -2,10 +2,6 @@ html {
     background-color: #eae8e8;
 }
 
-/* body {
-
-} */
-
 nav {
     width: fit-content;
     margin-top: 5rem;
@@ -428,7 +424,6 @@ a:hover {
     float: left;
     display: flex;
     flex-direction: column;
-    margin-top: em;
 }
 
 .fName {
@@ -441,6 +436,11 @@ a:hover {
     padding-bottom: 1em;
 }
 
+.fName::-webkit-input-placeholder {
+    color: black;
+    font-weight: bold;
+}
+
 .lName {
     border: solid #1e1e1e;
     border-radius: 5px;
@@ -449,6 +449,11 @@ a:hover {
     padding-left: 1em;
     padding-top: 1em;
     padding-bottom: 1em;
+}
+
+.lName::-webkit-input-placeholder {
+    color: black;
+    font-weight: bold;
 }
 
 .email {
@@ -461,6 +466,11 @@ a:hover {
     padding-bottom: 1em;
 }
 
+.email::-webkit-input-placeholder {
+    color: black;
+    font-weight: bold;
+}
+
 .inputs textarea {
     border: solid #1e1e1e;
     border-radius: 5px;
@@ -469,6 +479,12 @@ a:hover {
     padding-left: 1em;
     padding-top: 1em;
     padding-bottom: 1em;
+}
+
+.inputs textarea::-webkit-input-placeholder {
+    font-weight: bold;
+    color: black;
+    font-size: 15px;
 }
 
 .submitBtn {
@@ -488,5 +504,50 @@ a:hover {
 .updateImg {
     margin-left: 40em;
     margin-top: -8em;
-    
+}
+
+footer {
+    background-color: #c5c5c5;
+    margin-top: 5em;
+    padding-left: 20em;
+    padding-top: 1em;
+    padding-bottom: 10em;
+}
+
+footer h1 {
+    width: 20%;
+    font-size: 5em;
+    font-family: 'Cardo', serif;
+}
+
+.links {
+    display: flex;
+    margin-top: -9em;
+    margin-left: 23em;
+    font-family: 'Lato', sans-serif;
+}
+.links h2 {
+    font-size: 1.5em;
+    margin-top: -2.5em;
+}
+.links li {
+    list-style: none;
+    font-weight: bold;
+    padding-bottom: 1em;
+    margin-right: 5em;
+}
+
+.firstColum {
+    margin-left: -11em;
+}
+
+footer img {
+    margin-top: 5em;
+}
+
+.rights {
+    position: relative;
+    margin-left: 35em;
+    margin-top: -6em;
+    font-family: 'Lato', sans-serif;
 }
