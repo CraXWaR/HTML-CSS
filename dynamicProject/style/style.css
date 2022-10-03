@@ -5,6 +5,13 @@ html {
     color: whitesmoke;
 }
 
+nav {
+    display: flex;
+    margin-left: 75em;
+    margin-top: 6em;
+    
+}
+
 a {
     text-decoration: none;
     padding-left: 5em;
@@ -17,12 +24,6 @@ a:visited {
 a:hover {
     font-size: large;
     position: relative;
-}
-
-nav {
-    margin-left: 75em;
-    margin-top: 6em;
-    
 }
 
 header {
