@@ -1,0 +1,42 @@
+html body {
+    background-image: url("/static/images/backgroundImage.png");
+    height: 100%;
+    margin: 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.imgDots {
+    width: 10%;
+    height: 10%;
+    opacity: 0.2;
+}
+
+.imgDots img {
+    padding-top: 20px;
+}
+
+nav {
+    display: flex;
+}
+
+nav .navBtns{
+    margin-left: 750px;
+}
+
+nav .logo{
+    margin-top: -110px;
+    margin-left: 50px;
+    position: absolute;
+}
+
+nav a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 30px;
+    margin-left: 130px;
+}
+
+nav .navBtnsUnderline {
+    position: absolute;
+}
