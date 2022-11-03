@@ -18,6 +18,7 @@ html body {
 
 nav {
     display: flex;
+    padding-bottom: 3%;
 }
 
 nav .navBtns{
@@ -39,4 +40,53 @@ nav a {
 
 nav .navBtnsUnderline {
     position: absolute;
+}
+
+.mainContainer {
+    display: flex;
+}
+
+.mainContent {
+    float: right;
+    color: #ffffff;
+    margin-left: 56%;
+}
+
+h1 {
+    font-size: 60px;
+    font-family: 'Raleway', sans-serif;
+
+}
+
+h2 {
+    font-size: 35px;
+    font-family: 'Raleway', sans-serif;
+    position: absolute;
+    color: #ffffff;
+    margin-top: -33%;
+    margin-left: 23%;
+}
+
+p {
+    width: 60%;
+    text-align: center;
+    margin-left: 1%;
+    font-size: 30px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.joinNow {
+    position: absolute;
+    margin-left: 6%;
+}
+
+.bottomDots {
+    width: 10%;
+    height: 10%;
+    opacity: 0.2;
+    
+}
+
+.bottomDots img {
+    padding-top: 20px;
 }
