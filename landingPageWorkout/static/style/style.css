@@ -63,8 +63,8 @@ h2 {
     font-family: 'Raleway', sans-serif;
     position: absolute;
     color: #ffffff;
-    margin-top: -33%;
-    margin-left: 23%;
+    margin-top: -5.1%;
+    margin-left: 3.5%;
 }
 
 p {
@@ -76,17 +76,33 @@ p {
 }
 
 .joinNow {
-    position: absolute;
-    margin-left: 6%;
+    margin-left: 14%;
 }
 
 .bottomDots {
     width: 10%;
     height: 10%;
     opacity: 0.2;
-    
+    margin-left: 83.9%;
+}
+
+.bottomDotsSecond {
+    margin-left: -51%;
+}
+
+.bottomDotsThird {
+    margin-left: -104%;
+}
+
+.bottomDotsForth {
+    margin-left: -155%;
 }
 
 .bottomDots img {
     padding-top: 20px;
+    
+}
+
+.socialMedia {
+    padding-top: -500%;
 }
