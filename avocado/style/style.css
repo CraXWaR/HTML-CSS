@@ -2,8 +2,44 @@ html {
     background-color: #efeeee;
 }
 
+nav {
+    display: flex;
+    width: 90%;
+    margin: auto;
+    padding: auto;
+}
+
+.social {
+    padding: 115px;
+
+}
+
+.social a {
+    /* margin: 1px; */
+}
+
+.routes {
+    display: flex;
+}
+
+.routes img {
+    margin-top: 90px;
+    margin-left: 120px;
+    margin-right: 120px;
+}
+
+.routes a {
+    padding: 100px;
+
+}
+
 a {
     color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
 }
 
 a:visited {
