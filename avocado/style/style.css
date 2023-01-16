@@ -1,4 +1,11 @@
 html {
-    /* background-color: #efeeee; */
-    background-color: rebeccapurple;
+    background-color: #efeeee;
+}
+
+a {
+    color: black;
+}
+
+a:visited {
+    color: black
 }
