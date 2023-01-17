@@ -1,6 +1,7 @@
 html {
     background-color: #efeeee;
     width: 100%;
+    font-family: 'Noto Sans TC', sans-serif;
 }
 
 nav {
@@ -48,4 +49,24 @@ a:hover {
 
 a:visited {
     color: black
+}
+
+.container {
+    /* width: 100%; */
+    display: flex;
+    margin-left: 100px;
+}
+
+.content {
+    float: left;
+    
+}
+
+.content h1 {
+    font-size: 100px;
+}
+
+.mainImg {
+    /* float: right; */
+    margin-right: 200px;
 }
