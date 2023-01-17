@@ -66,6 +66,16 @@ a:visited {
     font-size: 100px;
 }
 
+.content p {
+    font-size: 40px;
+    color: #ffffff;
+    text-align: left;
+}
+
+.content p span {
+    background-color: black;
+}
+
 .images {
     margin-right: 200px;
 }
