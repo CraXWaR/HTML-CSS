@@ -2,6 +2,7 @@ html {
     background-color: #efeeee;
     width: 100%;
     font-family: 'Noto Sans TC', sans-serif;
+    text-transform: uppercase;
 }
 
 nav {
@@ -52,14 +53,13 @@ a:visited {
 }
 
 .container {
-    /* width: 100%; */
     display: flex;
     margin-left: 100px;
 }
 
 .content {
     float: left;
-    
+
 }
 
 .content h1 {
@@ -90,4 +90,9 @@ a:visited {
     position: inherit;
     margin-top: -550px;
 
+}
+
+button {
+    font-family: 'Noto Sans TC', sans-serif;
+    text-transform: uppercase;
 }
