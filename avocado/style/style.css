@@ -1,5 +1,6 @@
 html {
     background-color: #efeeee;
+    width: 100%;
 }
 
 nav {
@@ -10,13 +11,16 @@ nav {
 }
 
 .social {
-    padding: 115px;
+    display: flex;
+    margin-top: 115px;
+    margin-bottom: 115px;
+    margin-right: 115px;
 
 }
 
-/* .social a {
-    margin: 1px;
-} */
+.social a {
+    margin: 4px;
+}
 
 .routes {
     display: flex;
