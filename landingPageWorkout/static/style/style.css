@@ -21,11 +21,11 @@ nav {
     padding-bottom: 3%;
 }
 
-nav .navBtns{
+nav .navBtns {
     margin-left: 750px;
 }
 
-nav .logo{
+nav .logo {
     margin-top: -110px;
     margin-left: 50px;
     position: absolute;
@@ -100,7 +100,7 @@ p {
 
 .bottomDots img {
     padding-top: 20px;
-    
+
 }
 
 footer {
