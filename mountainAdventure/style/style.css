@@ -12,7 +12,7 @@ nav {
 }
 
 a {
-    text-align: center;    
+    text-align: center;
 }
 
 a:link {
@@ -190,7 +190,7 @@ a:hover {
 
 .planeImg {
     margin-left: 46%;
-    margin-top: 10em; 
+    margin-top: 10em;
 }
 
 .planeText {
@@ -203,6 +203,7 @@ a:hover {
     text-align: center;
     width: 50%;
 }
+
 .never {
     display: inline;
     font-style: italic;
@@ -351,11 +352,12 @@ a:hover {
     margin-top: 4.5em;
     margin-bottom: -4em;
 }
+
 .desing {
     position: absolute;
     margin-top: 5em;
     margin-left: 15em;
-    
+
 }
 
 .textDesingOne {
@@ -381,12 +383,12 @@ a:hover {
     margin-left: 39.5em;
 }
 
-.textDesingTwo h2{
+.textDesingTwo h2 {
     font-family: 'Lato', sans-serif;
     margin-bottom: 20px;
 }
 
-.textDesingTwo p{
+.textDesingTwo p {
     width: 50%;
     text-align: center;
     margin-left: -5.5em;
@@ -398,12 +400,12 @@ a:hover {
     margin-left: 65em;
 }
 
-.textDesingThree h2{
+.textDesingThree h2 {
     font-family: 'Lato', sans-serif;
     margin-bottom: 20px;
 }
 
-.textDesingThree p{
+.textDesingThree p {
     width: 95%;
     text-align: center;
     margin-left: -6em;
@@ -416,7 +418,8 @@ a:hover {
 
 .updateSection h1 {
     font-size: 5em;
-    font-family: 'Cardo', serif;;
+    font-family: 'Cardo', serif;
+    ;
     position: relative;
 }
 
